@@ -1,102 +1,58 @@
-Apps 
+Citibike++
 ===
-Lots of people have been asking stuff...
 
 !
-
-My story
+Citibike app--
 ===
-* Wasted +1yr on first app
-* First few failed
-* Since then churn out simple ones
-* Been focused a few months maybe?
-* 7 or 8 apps now
 
 !
 
-Sales
+:(
 ===
-* Money's kinda useful
-* Average $70/day
-* Soon to be $100 with voda app
-* Thats 36k...
-* I want a boat
+* Terrible symbology
+* No alerts
+* No directions
+* No historical/trend information
+* Only Citibank data
+* Can't tell whether it's refreshed
 
 !
 
-Coding
-===
-* Obj-C is nice
-* Think of it like a VERY simple layer of OO on top of C
-* Much simpler than C++
-* Like JS with C syntax
-
+# ?
+* Found
+[Citybik.es](http://citybik.es).
+* Useful anywhere. OK!
+ 
 !
 
-Time and Motivation
-===
-* I spend a few hours a week on it
-* Motivated by family/house
-* Dont be scared to give it a go
+But (show the format): http://api.citybik.es/citibikenyc.json
 
-!
++ Analysis on the data.
 
-Support
-===
-* I have my email in most apps
-* Get maybe one a day?
-* Everyone is friendly
-* I gave one refund
+Lots of tools at my disposal if only the data were in the right format.
 
-!
+I could scrape and push to a static store, but why not just redirect to the live source?
 
-Fail forwards
-===
-* Most apps fail
-* < $5 / week = fail
-* So: Make lots of small apps
-* Build on what works eg usage
-* Remember rovio made 51 apps before angry birds.
+# :)
+So, node-geoservice-adaptor (at esri.github.io) [http://github.com/esri/node-geoservices-adaptor]
 
-!
+* Teach myself node.js
+* Teach me about our services
+* Eat own dogfoos
 
-Ideas
-===
-* Start with crummy ideas. Thats better than nothing.
-* If it's 'obvious' to you, then its probably useful to someone.
-* Execution > ideas anyway.
+Then I built a [WebMap](http://geeknixta.maps.arcgis.com/home/webmap/viewer.html?webmap=960e5f0425b34765a957036e9cd38bb5) and [Template App](http://geeknixta.maps.arcgis.com/apps/OnePane/basicviewer/index.html?appid=adaf2757b3d346a09647d28574df22bd).
+Wait - our platform with no extra coding etc. just displaying live Citybike data. What is this?
 
-!
+And that can open in our mobile Apps and SDKs/APIs.
 
-Marketing
-===
-* Tried free for a week - fail (800 -> 0)
-* I have websites for my apps - nothing
-* Tried $2 - nothing, except usage apps
-* Now I just plonk them on at $1 or $2 and leave it
-* Haven't tried adwords
+Now can work with it, but not yet show it off.
 
-!
+So, before I build my killer iOS app, I'm going to just build a quick web viewer to look
+at all global data.
 
-Nuts n bolts
-===
-* Reviews take 2 weeks
-* Apple takes 30%
-* GST is 10%
-* Marginal tax will take 37% of what remains
-* Put it in the wife's name!
-* Ads in apps make nothing
+[World Bikeshare App](http://geonode.stg.geeknixta.com/webmaps/world-bikeshares/index.html)
 
-!
-
-Ideas
----
-* Pair up, make two apps, one in each name to make revenue split simple
-* Android - never touched. Get in the ground floor on tablets?
-* Scratch your own itch - make a very simple app
-
-!
-
-Whats stopping you?
----
-Any questions?
+# Next?
+Geotriggers
+Pebble watch
+Directions and notification
