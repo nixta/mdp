@@ -28,7 +28,7 @@ Citibike app--
 
 But
 ===
-* http://api.citybik.es/citibikenyc.json
+http://api.citybik.es/citibikenyc.json
 
 !
 
