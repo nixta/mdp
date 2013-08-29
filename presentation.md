@@ -58,7 +58,7 @@ So, node-geoservice-adaptor at [esri.github.io](http://esri.github.io)
 
 * Teach myself node.js
 * Teach me about our services
-* Eat own dogfoos
+* Eat own dogfood
 
 !
 
