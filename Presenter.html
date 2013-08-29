@@ -3,6 +3,7 @@
 <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1" />
 <title>Markdown Presenter</title>
 <style>
+
   html, body {
   	margin:0;
   	border:0;
@@ -26,6 +27,7 @@
     width:8em;
     overflow:hidden;
   }
+
   .slideCount select {
     color:white;
     background-color:#112;
@@ -76,24 +78,47 @@
    @media print {
        .for-screen { display: none; }
    }
+
    @media only screen and (max-width: 768px) {
+
        .centered {
+
            -ms-zoom: 0.8;
+
            zoom: 0.8;
+
        }
+
    }
+
    @media only screen and (max-width: 480px) {
+
        .centered {
+
            -ms-zoom: 0.5;
+
            zoom: 0.5;
+
        }
+
    }
+
    @media only screen and (max-width: 320px) {
+
        .centered {
+
            -ms-zoom: 0.35;
+
            zoom: 0.35;
+
        }
+
    }
+   
+   a, a:visited {
+   	color: #CCCCCC;
+   }
+
  /* End styling */
 </style>
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
@@ -126,6 +151,7 @@ if (!window.jQuery) {
 
   <div class="padding">
     <!-- This padding need to hiding address bar automatically at iPhone/iPad/Android browser. -->
+
   </div>
 
 </div>
@@ -146,19 +172,33 @@ if (!window.jQuery) {
 
 <script>
 var Present = {
+
     // Slide transition effects.
+
     effects: {
+
         // n: no effect.
+
         n: {
+
             pre: function (view, callback) { callback(); },
+
             post: function (view) { }
+
         },
+
         // f: fade in/out.
+
         f: {
+
             pre: function (view, callback) { view.fadeOut('fast', callback); },
+
             post: function (view) { view.fadeIn('fast'); }
+
         }
+
     },
+
 };
 Present.currentEffect = Present.effects['n']; // Default slide transiton effect is nothing.
 
@@ -176,8 +216,11 @@ Present.showSlide = function(slide) {
 
   var $view = $('.for-screen .centered');
   this.currentEffect.pre($view, $.proxy(function () {
+
       $view.html(this.slides[this.currentSlide]);
+
       this.currentEffect.post($view);
+
   }, this));
 
   $('.slideCount select').val(this.currentSlide);
@@ -259,10 +302,15 @@ Present.reload();
         if (e.keyCode == 'E'.charCodeAt(0)) effectCmd = true;
         else if (effectCmd)
         {
+
             var effectName = String.fromCharCode(e.keyCode).toLowerCase();
+
             var effect = Present.effects[effectName];
+
             if (typeof (effect) !== 'undefined') Present.currentEffect = effect;
+
             effectCmd = false;
+
         }
 
         if (e.keyCode == 37) {
