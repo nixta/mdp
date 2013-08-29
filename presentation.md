@@ -52,7 +52,8 @@ Live feeds FTW
 
 :)
 ===
-So, node-geoservice-adaptor at http://esri.github.io
+So, node-geoservice-adaptor at [esri.github.io](http://esri.github.io)
+
 * [http://github.com/esri/node-geoservices-adaptor](http://github.com/esri/node-geoservices-adaptor)
 
 * Teach myself node.js
@@ -87,7 +88,7 @@ Norms??
 ===
 * Need to be able to show the awesome
 
-#[World Bikeshare App](http://geonode.stg.geeknixta.com/webmaps/world-bikeshares/index.html)
+* [World Bikeshare App](http://geonode.stg.geeknixta.com/webmaps/world-bikeshares/index.html)
 
 !
 
