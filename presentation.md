@@ -28,7 +28,7 @@ Citibike app--
 
 But
 ===
-# http://api.citybik.es/citibikenyc.json
+* http://api.citybik.es/citibikenyc.json
 
 !
 
@@ -52,8 +52,8 @@ Live feeds FTW
 
 :)
 ===
-So, node-geoservice-adaptor (at http://esri.github.io)
-*http://github.com/esri/node-geoservices-adaptor]
+So, node-geoservice-adaptor at http://esri.github.io
+* http://github.com/esri/node-geoservices-adaptor
 
 * Teach myself node.js
 * Teach me about our services
@@ -63,6 +63,9 @@ So, node-geoservice-adaptor (at http://esri.github.io)
 
 So...
 ==
+Looks like http://geostore.geeknixta.com
+
+And allows:
 * [WebMap](http://geeknixta.maps.arcgis.com/home/webmap/viewer.html?webmap=960e5f0425b34765a957036e9cd38bb5)
 * [Template App](http://geeknixta.maps.arcgis.com/apps/OnePane/basicviewer/index.html?appid=adaf2757b3d346a09647d28574df22bd)
 
