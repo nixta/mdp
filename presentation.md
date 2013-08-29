@@ -110,4 +110,4 @@ Next?
 
 nfurness@esri.com
 
-[maps.geeknixta.com][http://maps.geeknixta.com]
+[maps.geeknixta.com](http://maps.geeknixta.com)
