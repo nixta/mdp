@@ -54,7 +54,7 @@ Live feeds FTW
 ===
 So, node-geoservice-adaptor at [esri.github.io](http://esri.github.io)
 
-* [http://github.com/esri/node-geoservices-adaptor](http://github.com/esri/node-geoservices-adaptor)
+[http://github.com/esri/node-geoservices-adaptor](http://github.com/esri/node-geoservices-adaptor)
 
 * Teach myself node.js
 * Teach me about our services
@@ -67,6 +67,7 @@ So...
 Looks like [http://geostore.geeknixta.com](http://geostore.geeknixta.com)
 
 And allows:
+
 * [WebMap](http://geeknixta.maps.arcgis.com/home/webmap/viewer.html?webmap=960e5f0425b34765a957036e9cd38bb5)
 * [Template App](http://geeknixta.maps.arcgis.com/apps/OnePane/basicviewer/index.html?appid=adaf2757b3d346a09647d28574df22bd)
 
@@ -86,6 +87,7 @@ Nerd work OK
 
 Norms??
 ===
+
 * Need to be able to show the awesome
 
 * [World Bikeshare App](http://geonode.stg.geeknixta.com/webmaps/world-bikeshares/index.html)
@@ -94,6 +96,7 @@ Norms??
 
 Next?
 ===
+
 * Mobile App
 * Esri Geotriggers (Geoloqi)
 * Directions and notification
